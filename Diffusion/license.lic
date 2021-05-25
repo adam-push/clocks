@@ -1,0 +1,45 @@
+This is a license file for Diffusion Server by Push Technology.
+http://www.pushtechnology.com
+
+Do not modify this file. To deploy the license, copy this file to
+etc/license.lic within your Diffusion Server installation.
+
+Use of this license is subject to a EULA. Please direct questions about this
+license to support@pushtechnology.com.
+
+License properties:
+
+  class=default
+  connections_hard=5
+  connections_soft=5
+  cpu_cores=8
+  licensee=
+  origin=Created by jenkins [Linux 3.10.0-327.18.2.el7.x86_64] at Wed May 05 13:22:50 BST 2021
+  topics=1000
+  uuid=f70bfcbb-e0ea-4bb6-99de-04b273fa91da
+  version=6.6.*
+
+-----BEGIN PGP MESSAGE-----
+Version: BCPG v1.52
+
+owJ4nJvAy8zAxXhn/SLdYP0ODsbTByqTxHMyk1PzilPdMnNS/RJzU3U90/Pyi1JT
+Eib1SSnr6ipApRXSgPJcyuGpKQq+iZUKBqYKhsZWRkZWpgYKTsEhCkYGRoZcpaWZ
+KbZp5gZJaclJSbqpBqmJuiZJSWa6lpYpqboGJklG5sZpiZaGKYlcJfkFmcnFtoYG
+BgZcyTmJxcW2KalpiaU5JVzJ+Xl5qcklmfl5xfHF+WkltqZcyQWl8clAJxXbWnCV
+pRYVA+VszfTM9LRQFGckFqUAFecXZaZn5tk6F6UmlgDdmlSpkJWal52ZV6wQ7ZOZ
+V1qhYKxnaKBnoGtsZK5naKFnpJeaY65XYWEWb2YSq5BYooDiwRigD2NQvAgNjVRb
+rk4mVRYGRi4GflYmUFBxyIClklMZuDgFYAHMqsD/v2jSfw3j/x2XkrZw/Mlf3yci
+ksSV/u2Nv6bn9avuj+2317Uz2t41Fp9/J+t2/Ndrkr8eV+YqC5zvNQrXvNGianF0
+761rmSoJWhxCOTN2TVNTFXYUzVTxidv0KL3uZOJGtkZtza1aETvnM2bfYa41ZfyY
+v2bl6xOT9De/ljlUY9DCqx8W/Up9krarv3Bi/rWPD8QdZW5uUmG/3iEx+/uBtbJL
+TfdFPZ0s8f2ssHLpV52mW9IGZ6u2fLnjdlRedu4H4/Al3rPmmgr/N1X97NtZEvxz
+r+PNVh/htsYJAltrJxb+6cqaY6N4l5HvlO66aK/CL+1CiSaXF30/N7f2dKrCJ5H7
+c3jUNAwy8/o0o2fUPeb/+L1hWvCfmvs/OhM2h+X+iz65buMrz6uquVwfNtzZP8Nk
+S5Hjwaur9e8WRAjMObd61Tr7TyVP3cRFFGV3Ls6S+X/tPvuaN5f2Z8/c/Ib3XPKx
+/a0B27ak36s44LJxuzObW/rylaIPM994F35fOe24z5XWqp5b95xFI2YeeGgWqVm9
+9eyq+8z2Wt5bZufE+5TGi8+Z2GtzVTyvc8tUXoVJ03WLLy5fUf7y+ZpTszxX3vuS
+ICI81elKoMyOy0+v3Lt2SGVGxlN37+a0t7t3MPVWfV8pJXz5nSf/pYK8kg8CBRWv
+vyzJST5Q99HhmdO2iPDW1v8Xmx9crFKb3sheK/qPa1Z+7I8dAjka27ZpTAEAHNV0
++g==
+=Cqht
+-----END PGP MESSAGE-----

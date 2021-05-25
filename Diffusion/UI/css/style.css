@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'advent';
+    font-style: normal;
+    font-size: 28px;
+    src: local('advent'), url('../fonts/advent.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'led';
+    font-style: normal;
+    font-size: 28px;
+    src: local('led'), url('../fonts/NewLedDisplaySt-RD6e.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'motorway';
+    font-style: normal;
+    font-size: 28px;
+    src: local('motorway'), url('../fonts/DangerOnTheMotorway-xV10.ttf') format('truetype');
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.clock-container {
+    padding-bottom: 1em;    
+}
+
+.clock {
+    font-family: 'motorway';
+    font-size: 48px;
+    color: #ffff00;
+}
+
+.period {
+    font-family: 'motorway';
+    font-size: 32px;
+    color: #ffffff;
+    padding-left: 1em;
+}
+
+.sport {
+    font-weight: bold;
+}
+
+.event {
+    font-weight: bold;
+    
+}

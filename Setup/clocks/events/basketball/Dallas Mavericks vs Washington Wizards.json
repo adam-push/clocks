@@ -1,0 +1,46 @@
+{
+    "scheduled_start_time" : 1616755150883,
+    "running"              : false,
+    "last_update_time"     : null,
+    "active_period"        : null,
+    "count_down"           : true,
+    
+    "period"               : [
+        {
+            "name"         : "First quarter",
+            "duration"     : 720,
+            "start_time"   : null,
+            "elapsed_time" : 0,
+            "auto_stop"    : true
+        },
+        {
+            "name"         : "Second, quarter",
+            "duration"     : 720,
+            "start_time"   : null,
+            "elapsed_time" : 0,
+            "auto_stop"    : true
+        },
+        {
+            "name"         : "Third quarter",
+            "duration"     : 720,
+            "start_time"   : null,
+            "elapsed_time" : 0,
+            "auto_stop"    : true
+        },
+        {
+            "name"         : "Fourth quarter",
+            "duration"     : 720,
+            "start_time"   : null,
+            "elapsed_time" : 0,
+            "auto_stop"    : true
+        },
+        {
+            "name"         : "Overtime",
+            "duration"     : 300,
+            "start_time"   : null,
+            "elapsed_time" : 0,
+            "auto_stop"    : true
+        }
+    ]
+}
+    

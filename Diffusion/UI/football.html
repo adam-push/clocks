@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script type="text/javascript" src="js/browserify-zlib-0.2.0.js"></script>
+    <script type="text/javascript" src="js/diffusion-6.6.0.js"></script>
+    <script type="text/javascript" src="js/display.js"></script>
+    <title>Clock demo - football clock</title>
+  </head>
+  <body onload="run('?clocks/events/football//')">
+
+    <div id="football">
+      <h2>Football</h2>
+
+      <template id="clock-template">
+        <div class="clock-container">
+          <div>
+            <span class="event"></span>
+          </div>
+          <span class="clock"></span>
+          <span class="period"></span>
+        </div>
+      </template>
+
+      <div id="clocks">
+      </div>
+      
+    </div>
+
+
+    
+  </body>
+</html>

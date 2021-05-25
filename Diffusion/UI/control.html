@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8"/>
+  <head>
+    <link rel="stylesheet" href="css/control.css"?</link>
+    <script src="js/browserify-zlib-0.2.0.js"></script>
+    <script src="js/diffusion-6.6.0.js"></script>
+    <script src="js/control.js"></script>
+  </head>
+  <body onload="run()">
+
+    <h1>Control</h1>
+
+    <template id="event-clock">
+      <div>
+        <div>
+          <h3 class="event-clock-name"></h3>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th class="name">Name</th>
+              <th class="start_time">Start time</th>
+              <th class="elapsed_time">Elapsed time</th>
+              <th class="duration">Duration</th>
+              <th class="auto_stop">Auto stop?</th>
+              <th class="override">Override time</th>
+              <th class="start_stop">Start/Stop clock</th>
+              <th class="next_period">Next period</th>
+            </tr>
+          </thead>
+          <tbody class="controls-container">
+          </tbody>
+        </table>
+      </div>
+    </template>
+
+    <template id="period-controls">
+      <tr class="period">
+        <td class="name"></td>
+        <td class="start_time"></td>
+        <td class="elapsed_time">00:00</td>
+        <td class="duration"></td>
+        <td class="auto_stop"><input type="checkbox" disabled></input></td>
+        <td class="override">
+          <input type="number" class="minutes" value="00" min="0" max="99" style="width: 4em">
+          <input type="number" class="seconds" value="00" min="0" max="59" style="width: 4em">
+          <button>Set time</button>
+        </td>
+        <td class="start_stop"><button>Start</button></td>
+        <td class="next_period"><button>Next period</button></td>
+      </tr>
+    </template>
+
+    <div id="clocks">
+    </div>
+
+
+  </body>
+</html>

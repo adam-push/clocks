@@ -1,0 +1,99 @@
+body {
+    background: #fafafa;
+    color: black;
+    font-family: sans-serif;
+}
+
+:disabled {
+    opacity: 0.3;
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: yellow;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr.disabled {
+    pointer-events: none;
+    opacity: 0.3;
+}
+
+th, td {
+    padding: 4px;
+}
+
+th {
+    background-color: #ddd;
+    color: black;
+}
+
+th.name {
+    text-align: left;
+}
+
+th.start_time {
+    text-align: left;
+}
+
+th.elapsed_time {
+    text-align: center;
+}
+
+th.duration {
+    text-align: center;
+}
+
+th.overtime {
+    text-align: center;
+}
+
+th.auto_stop {
+    text-align: center;
+}
+
+th.start_stop {
+    text-align: center;
+}
+
+th.next_period {
+    text-align: center;
+}
+
+td.name {
+    text-align: left;
+}
+
+td.start_time {
+    text-align: left;
+}
+
+td.elapsed_time {
+    text-align: center;
+}
+
+td.duration {
+    text-align: center;
+}
+
+td.auto_stop {
+    text-align: center;
+}
+
+td.override {
+    text-align: center;
+}
+
+td.start_stop {
+    text-align: center;
+}
+
+td.next_period {
+    text-align: center;
+}

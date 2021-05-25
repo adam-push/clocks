@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  clocks-diffusion:
+    image: pushtechnology/clocks.diffusion:0.1
+    build: Diffusion
+    ports:
+      - "8080"
+      - "8090"
+
+  setup:
+    image: pushtechnology/clocks.setup:0.1
+    build: Setup
+    
