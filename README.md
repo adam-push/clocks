@@ -10,6 +10,8 @@ A more sophisticated approach is to only send the game time to the client when a
 
 ## Running the demo
 
+You may wish to replace the `license.lic` file in the `Diffusion` directory with your own before building and running the demo.
+
 ```
 docker-compose build && docker-compose up
 ```
